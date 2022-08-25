@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="autor" content="Coloapa Rogel Paola, Morales Martinez David, Rodriguez Garcia Mauricio">
+    <link rel="stylesheet" href="../css/Styles.css">
+    <link rel="icon" href="../imagenes/g.png">
+    <title>Contacto</title>
+        
+</head>
+<body>
+    <section>
+        <nav>
+            <ol>
+                <a href="../index.html">Inicio</a>
+                <a href="../pages/nosotros.html">Nosotros</a>
+                <a href="../pages/contacto.html">Contacto</a>
+                <a href="../pages/galerias.html">Galería</a>
+            </ol>
+        </nav>
+    </section>
+    <section class="section-form">
+        <form action="" name="form">
+            <fieldset>
+                <legend>Contactanos</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Escribe tu nombre...">
+                <br><br>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" placeholder="Escribe tu Apellido...">
+                <br><br>
+                <label for="sexo">Sexo</label><br>
+                <input type="radio" name="sexo" id="F">                    
+                <label for="F">Femenino</label><br>
+                <input type="radio" name="sexo" id="M">
+                <label for="M">Masculino</label>
+                <br><br>
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" name="correo" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Ingrese un correo Valido" placeholder="ejemplo@gmail.com...">
+                <br><br>
+                <label for="telefono">Número de Teléfono</label>
+                <input type="tel" name="telefono" pattern="[0-9]{10}" title="Ingrese numero de 10 dijitos" placeholder="123456789">
+                <br><br>
+                <label for="direccion">Dirección</label>
+                <input type="text" name="direccion" placeholder="Escribe tu Direccion Actual...">
+                <br><br>
+                <label for="comentarios">Comentarios</label>
+                <input type="text" name="comentarios" placeholder="Escribe un Comentario...">
+                <br><br>
+                <input type="checkbox" name="terminos" id="terminos" onclick="boton.disabled = !this.checked">
+                <label for="terminos">Acepta los Términos y Condiciones</label>
+                <br><br>
+                <input type="submit" name="boton" value="Enviar" id="Enviar" disabled>
+            </fieldset>
+        </form>
+
+</body>
+</html>

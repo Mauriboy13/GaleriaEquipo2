@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none; /*Decoracion de Texto*/
+    color: #000;
+}
+.UAEH{
+    margin: 30px;
+    float: left;
+    width: 15%;
+}
+.ESTi{
+    margin: 30px;
+    float: right;
+    width: 20%;
+}
+.section-portada{
+    margin: 50px;
+    text-align: center;
+}
+.integrantes{
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+}
+.section-borde{
+    padding-top: 9px;
+    border-style: solid;
+    border-color: #B91116;
+    margin: 1px;
+}
+h1{
+    font-size: 50px;
+    
+}
+h2{
+    font-size: 35px;
+}
+p{
+font-family: Arial;
+    font-size: 25px;
+    list-style: none;
+    text-align: justify;
+    padding-right: 4%;
+}
+
+ li{
+        font-size: 25px;
+        list-style: none;
+    
+    }
+
+    .section-form{
+        font-size: 19px;
+        font-family: Arial;
+    }
+
+.article-Mision{
+    text-align: justify;
+}
+
+.article-Vision{
+    text-align: justify;
+}
+.article-Integrantess{
+    text-align: justify;
+}
+body{
+    margin-left: 30px;
+    background-color: rgb(200, 253, 222);
+}
+nav ol{
+    font-size: 40px;
+    display: inline-block; /*bloques alineados*/
+    text-align: right;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(68, 245, 230);
+    font-family: 'Lucida Calligraphy';
+}
+a{
+    padding: 10x;
+}
+
+ol a:hover{
+    background-color: rgb(46, 231, 255);
+    color: azure;
+}
+.Galeria img{
+    vertical-align: top;
+    width: 350px;
+    margin: 25px;
+    border: 2px solid rgb(255, 77, 77);
+    padding: 5px;
+    opacity: .4;
+    font-family: 'Lucida Calligraphy';
+}
+
+
+.Galeria img:hover{
+ cursor: pointer;
+    opacity: 5;
+}
+
